@@ -1,0 +1,284 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url("../images/backgrounds.jpg");
+	background-repeat:repeat;
+}
+.body_cntn{
+	margin:0 auto;
+	width:960px;
+	border:1px solid grey;
+}
+.header_cntn{
+	height:80px;
+	background-image:url("../images/menu_backgrounds.jpg");
+	background-repeat:repeat;
+}
+.logo_cntn{
+	float:left;
+	width:30%;
+	margin-top:15px;
+}
+.logo_cntn p a{
+	font-size:30px;
+	font-weight:bold;
+	color:white;
+	font-family:Comic Sans MS;
+	text-decoration:none;
+	padding-left:15px;
+}
+.menu_cntn{
+	float:left;
+	width:70%;
+	margin-top:30px;
+}
+.menu_cntn ul{
+	margin-left:200px;
+}
+.menu_cntn ul li{
+	list-style:none;
+	float:left;
+	padding-left:10px;
+	font-family:Comic Sans MS;
+}
+.menu_cntn ul li a{
+	padding:5px 10px;
+	text-decoration:none;
+	color:red;
+	background:yellow;
+	border:1px solid grey;
+	border-radius:50%;
+	transition:1s;
+}
+.menu_cntn ul li a:hover{
+	background:red;
+	color:white;
+}
+
+/*--Slider--*/
+
+@keyframes slider{
+0%{left:0;}
+20%{left:0;}
+25%{left:-100%;}
+45%{left:-100%;}
+50%{left:-200%;}
+70%{left:-200%}
+75%{left:-300%}
+95%{left:-300%}
+100%{left:-400%}
+}
+#slider{
+	overflow:hidden;
+}
+#slider figure img{
+	width:20%;
+	float:left;
+	height:500px;
+}
+#slider figure{
+	position:relative;
+	width:500%;
+	margin:0;
+	left:0;
+	text-align:left;
+	font-size:0;
+	animation:20s slider infinite;
+}
+
+/*--Slider--*/
+
+.what_cntn{
+	height:60px;
+	background-image:url("../images/menu_backgrounds.jpg");
+	background-repeat:repeat;
+	margin:0px;
+}
+.what_cntn h2{
+	color:white;
+	text-align:center;
+	padding-top:14px;
+	font-family:Comic Sans MS;
+}
+.service_cntn{
+	height:230px;
+	background:steelblue;
+	font-family:Comic Sans MS;
+}
+.service_cntn h3{
+	font-weight:bold;
+	color:white;
+	font-family:Comic Sans MS;
+}
+.service1{
+	width:300px;
+	height:160px;
+	float:left;
+	margin-left:4px;
+}
+.service2{
+	width:300px;
+	height:160px;
+	float:left;
+	margin-left:28px;
+}
+.service3{
+	width:300px;
+	height:160px;
+	float:left;
+	margin-left:28px;
+}
+.who_cntn{
+	height:60px;
+	background-image:url("../images/menu_backgrounds.jpg");
+	background-repeat:repeat;
+}
+.who_cntn h2{
+	color:white;
+	text-align:center;
+	padding-top:13px;
+	font-family:Comic Sans MS;
+}
+.mentors_cntn{
+	font-family:Comic Sans MS;
+	height:480px;
+	background:lightblue;
+}
+.mentors_cntn img{
+	border-radius:50%;
+	height:220px;
+	width:220px;
+	margin-top:15px;
+	filter:grayscale(100%);
+	transition:.3s;
+}
+.mentors_cntn img:hover{
+	filter:none;
+	border-radius:0;
+}
+.mentors_cntn h3{
+	color:blue;
+	font-weight:bold;
+	text-align:center;
+}
+.founder_cntn{
+	height:160px;
+	width:220px;
+	float:left;
+	margin-left:3px;
+}
+.ceo_cntn{
+	height:160px;
+	width:220px;
+	float:left;
+	margin-left:24px;
+}
+.developer_cntn{
+	height:160px;
+	width:220px;
+	float:left;
+	margin-left:24px;
+}
+.designer_cntn{
+	height:160px;
+	width:220px;
+	float:left;
+	margin-left:24px;
+}
+.partners_cntn{
+	height:60px;
+	background-image:url("../images/menu_backgrounds.jpg");
+	background-repeat:repeat;
+}
+.partners_cntn h2{
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	padding-top:13px;
+	font-family:Comic Sans MS;
+}
+.clients_cntn{
+	
+	height:120px;
+	background:white;
+	padding-top:20px;
+}
+.clients1{
+	width:180px;
+	height:100px;
+	float:left;
+	margin-right:13px;
+	margin-left:5px;
+}
+.clients1 img{
+	width:170px;
+	height:100px;
+}
+.clients2{
+	width:180px;
+	height:100px;
+	float:left;
+	margin-right:13px;
+}
+.clients2 img{
+	width:170px;
+	height:100px;
+}
+.clients3{
+	width:180px;
+	height:100px;
+	float:left;
+	margin-right:13px;
+}
+.clients3 img{
+	width:170px;
+	height:100px;
+}
+.clients4{
+	width:180px;
+	height:100px;
+	float:left;
+	margin-right:13px;
+}
+.clients4 img{
+	width:170px;
+	height:100px;
+}.clients5{
+	width:180px;
+	height:100px;
+	float:left;
+}
+.clients5 img{
+	width:170px;
+	height:100px;
+}
+.footer_cntn{
+	height:80px;
+	background-image:url("../images/menu_backgrounds.jpg");
+	background-repeat:repeat;
+	padding-top:20px;
+}
+.footer_left_cntn{
+	width:480px;
+	height:60px;
+	float:left;
+	padding-top:20px;
+}
+.footer_left_cntn p{
+	font-family:Comic Sans MS;
+	color:white;
+	padding-left:15px;
+}
+.footer_right_cntn{
+	width:480px;
+	height:60px;
+	float:right;
+}
+.footer_right_cntn p{
+	color:white;
+	text-align:right;
+	padding-right:15px;
+	font-family:Comic Sans MS;
+}
